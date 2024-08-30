@@ -26,3 +26,4 @@ async function main() {
         console.log(`${wallet.address};${wallet.mnemonic}`);
     });
 }
+main().catch(console.error);
